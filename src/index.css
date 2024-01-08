@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+2&display=swap");
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import './components/Constant.js';   
+
+:root {
+  --background-color: #2C001E;
+  --text-color: #fff;
+  --title-color: #5dfa93;
+  --skills-color: #F29879;
+  --project-content-color: rgba(255, 196, 160, 0.66);
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--background-color);
+  border-radius: 4px;
+}
+
+body {
+  margin: 0;
+  padding-left: 10px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.terminal {
+  padding: 10px;
+  height: 100vh;
+}
+
+form {
+  margin-top: 5px;
+  display: inline-block;
+}
+
+input {
+  background: none;
+  border: none;
+  outline: none;
+  color: var(--text-color);
+  display: inline-block;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 18px;
+}
+
+.spacing {
+  height: 10px;
+}
+
+.user,
+a {
+  color: var(--title-color);
+  margin-right: 12px;
+}
+
+.symbols {
+  color: var(--text-color);
+}
+
+.ascii-art {
+  font-size: 10px;
+  margin: 0;
+}
+
+.commands {
+  color: var(--title-color);
+}
+
+.about p {
+  margin: 5px;
+}
+
+.help {
+  color: #cfd4e1c7;
+  margin: 3px 0px 0px 15px;
+  /* font-size: xx-large; */
+}
+
+.skills {
+  color: var(--skills-color);
+}
+
+.skills-text {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.skills-logo {
+  color: var(--text-color);
+  font-size: 50px;
+}
+
+.social-icon {
+  color: var(--text-color);
+}
+
+.social-icon:hover {
+  color: var(--title-color);
+}
+
+.projects-head {
+  color: var(--title-color);
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.projects-content {
+  margin: 0;
+  color: var(--project-content-color);
+}
+
+.terminal-spacing {
+  height: 200px;
+}
+
+.terminal-header {
+  background-color: #171717;
+  padding: 10px;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 16px;
+  border-top-left-radius: 5px; 
+  border-top-right-radius: 5px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+background-color: var(--title-color);
+}
+
+.theme-btn {
+  background: transparent;
+  color: var(--title-color);
+}
+
+.theme-btn:hover{
+  background: var(--background-color) ;
+}
+
+.project-card-view {
+  width: 250px;
+  background: transparent !important;
+  border: 2px solid #333 !important;
+  color: var(--text-color);
+}
