@@ -29,7 +29,9 @@ const Intro = () => {
           <p>Welcome to my <span className="commands">Yb.</span> terminal portfolio.</p>
           <p>
             For a list of available commands, type '
-            <span className="commands">help</span>'.
+            <span className="commands">help</span>'
+            or '
+            <span className="commands">ctrl+i</span>'.
           </p>
           <p>
             This website's source code can be found at{" "}

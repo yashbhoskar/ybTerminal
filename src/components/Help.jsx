@@ -32,10 +32,6 @@ export default function Help() {
             </p>
 
             <p className='help'>
-                <span className='commands'>source</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- If you want to make something like this...
-            </p>
-
-            <p className='help'>
                 <span className='commands'>GUI</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- Switch to my GUI.
             </p>
         </div>
