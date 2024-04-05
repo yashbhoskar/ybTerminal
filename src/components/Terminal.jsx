@@ -62,7 +62,7 @@ const Terminal = () => {
         </p>
       );
       setTimeout(() => {
-        window.open("https://yashbhoskar.github.io/yb./", "_blank");
+        window.open("https://yashbhoskar.github.io/yb/", "_blank");
       }, 2000);
     } else if (input === "linkedin" || input === "L") {
       newOutput = (
