@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ybTerminal/static/css/main.8ab814e3.css",
+    "main.js": "/ybTerminal/static/js/main.4262f632.js",
+    "static/js/787.7b4de018.chunk.js": "/ybTerminal/static/js/787.7b4de018.chunk.js",
+    "static/media/LMS.jpg": "/ybTerminal/static/media/LMS.5b8d7de6a983a540ce1c.jpg",
+    "static/media/Terminal.png": "/ybTerminal/static/media/Terminal.165a478009201d9272e2.png",
+    "static/media/Advit.png": "/ybTerminal/static/media/Advit.1dd12374e0482c33941c.png",
+    "index.html": "/ybTerminal/index.html",
+    "main.8ab814e3.css.map": "/ybTerminal/static/css/main.8ab814e3.css.map",
+    "main.4262f632.js.map": "/ybTerminal/static/js/main.4262f632.js.map",
+    "787.7b4de018.chunk.js.map": "/ybTerminal/static/js/787.7b4de018.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ab814e3.css",
+    "static/js/main.4262f632.js"
+  ]
+}
